@@ -1,0 +1,7 @@
+baseURL = "http://nootim_learning.io/"
+languageCode = "fr-FR"
+title = "Nootim learning"
+theme = "ananke"
+
+[params]
+    background_color_class = "bg-blue"
