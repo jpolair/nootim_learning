@@ -1,7 +1,7 @@
 ---
 title: "Koa Typescript Jest (partie 3)"
 date: 2020-06-06T21:15:28+02:00
-draft: true
+draft: false
 ---
 
 La base de données est installée, je vais donc y stocker le password de manière sécuriser, je vais également implémenter la sécurisation de mes routes par un json web token.

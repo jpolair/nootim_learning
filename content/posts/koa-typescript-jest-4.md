@@ -1,7 +1,7 @@
 ---
 title: "Koa Typescript Jest (partie 4)"
 date: 2020-06-06T21:35:41+02:00
-draft: true
+draft: false
 ---
 
 J'ai créé l' Api avec une authentification jsonwebtoken, avant d'aller plus loin, c'est à dire : ajouter des endpoints à mon Api, créer une doc Api, refactoriser, et plus globalement faire grossir mon application, je vais implémenter les tests, pour ça j'ai choisi Jest et Supertest…
