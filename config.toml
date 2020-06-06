@@ -1,4 +1,4 @@
-baseURL = "http://nootim_learning.io/"
+baseURL = "/"
 languageCode = "fr-FR"
 title = "Nootim learning"
 theme = "ananke"
