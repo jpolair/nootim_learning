@@ -15,8 +15,11 @@ Il existe plusieurs générateur de site statique Jekyll écrit en Ruby, Gatsby 
 Pré-requis:
 
 * Git installé et un compte github, gitlab ou bitbucket
+* Homebrew (pour mac) chocolatey (pour windows) installé sur la machine
 * 10 min de dispo  😁
 
 Aller dans un terminal est installé hugo sur la machine:
+
+Pour mac voici la commande
 
     brew install hugo
