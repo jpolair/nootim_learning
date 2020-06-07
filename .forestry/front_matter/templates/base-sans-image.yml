@@ -11,3 +11,5 @@ fields:
   config:
     display_utc: false
   default: now
+pages:
+- content/posts/creer-un-site-statique-avec-hugo.md
