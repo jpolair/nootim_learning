@@ -116,3 +116,26 @@ un autre ici
 * oui une liste
 
 {{< /highlight >}}
+
+Et maintenant
+
+{{< highlight script >}}
+
+hugo server -D
+
+{{< /highlight >}}
+
+En allant sur l'url http://localhost:1313, on voit la magie opérer, c'est bien notre site qui tourne en local sur notre ordinateur !!!
+
+Pour aller plus loin....dans themes il y a toujours un dossier siteExample, en allant dans ce dossier on peut voir le site exemple et notamment son fichier de configuration le config.toml (ou .yaml, ou .json certaines fois suivant le thème), copier coller ce fichier et jouer avec les options, pour créer du contenu on peut également copier-coller ce qu'il y a dans le dossier content du site exemple, bien souvent il y a des pages qui ressemblent à celles que l'on veut créer, je pense à contact (formulaire héberger chez un tiers dont on peut se servir très très facilement grâce à un shortcode par exemple)
+
+Point à retenir:
+
+* Tout le contenu visible du site est dans content/
+* On crée l'arborescence que l'on veut dans content
+* Il y a un front-matter en entête de chaque posts ( il peut être bien plus complet que celui qu'on a vu... allez voir dans le site exemple (photos pour articles par exemple)
+* le fichier config.toml est propre à chaque themes, il peut contenir pleins d'options
+* En poussant ce site sur github on pourra l'héberger facilement et gratuitement via github.pages ou netlify
+* On peut se créer une vraie console d'admin très facilement avec forestry.io
+
+enjoy!!!
