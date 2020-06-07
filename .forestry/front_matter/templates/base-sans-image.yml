@@ -8,3 +8,6 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    display_utc: false
+  default: now
