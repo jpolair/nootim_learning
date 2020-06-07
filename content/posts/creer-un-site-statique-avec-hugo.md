@@ -65,7 +65,9 @@ J'ai téléchargé le thème ananke qui est le thème "exemple" dans la doc hugo
 [https://themes.gohugo.io/](https://themes.gohugo.io/ "https://themes.gohugo.io/")
 
 Maintenant que j'ai un thème, je vais ajouter du contenu, le contenu s'ajoute en markdown, le markdown est très très compliqué à apprendre ça prend au moins....5min 😁  
-PS: Pour l'instant j'ajoute du contenu en markdown...mais on peut faire encore mieux 😮😉  
+PS: Pour l'instant j'ajoute du contenu en markdown...mais on peut faire encore mieux 😮😉
+
+  
 Je vais également mettre dans config.toml:
 
 *  une clé theme = "ananke" (si le theme choisi est bien ananke)
