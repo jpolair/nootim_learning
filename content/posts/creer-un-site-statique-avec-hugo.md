@@ -66,7 +66,12 @@ J'ai téléchargé le thème ananke qui est le thème "exemple" dans la doc hugo
 [https://themes.gohugo.io/](https://themes.gohugo.io/ "https://themes.gohugo.io/")
 
 Maintenant que j'ai un thème, je vais ajouter du contenu, le contenu s'ajoute en markdown, le markdown est très très compliqué à apprendre ça prend au moins....5min 😁  
-PS: Pour l'instant j'ajoute du contenu en markdown...mais on peut faire encore mieux 😮😉
+PS: Pour l'instant j'ajoute du contenu en markdown...mais on peut faire encore mieux 😮😉  
+Je vais également mettre dans config.toml:
+
+*  une clé theme = "ananke" (si le theme choisi est bien ananke)
+* une clé title = "titre de mon super site"
+* baseURL = "/"
 
 Au root du projet dans un terminal taper la commande qui suit, puis ouvrir l'IDE préféré , visual studio code, atom, sublime-text, webstorm, enfin bref, le préféré..
 
@@ -127,7 +132,7 @@ hugo server -D
 
 En allant sur l'url http://localhost:1313, on voit la magie opérer, c'est bien notre site qui tourne en local sur notre ordinateur !!!
 
-Pour aller plus loin....dans themes il y a toujours un dossier siteExample, en allant dans ce dossier on peut voir le site exemple et notamment son fichier de configuration le config.toml (ou .yaml, ou .json certaines fois suivant le thème), copier coller ce fichier et jouer avec les options, pour créer du contenu on peut également copier-coller ce qu'il y a dans le dossier content du site exemple, bien souvent il y a des pages qui ressemblent à celles que l'on veut créer, je pense à contact (formulaire héberger chez un tiers dont on peut se servir très très facilement grâce à un shortcode par exemple)
+Pour aller plus loin....dans themes/mon_theme il y a toujours un dossier exampleSite, en allant dans ce dossier on peut voir le site exemple et notamment son fichier de configuration le config.toml (ou .yaml, ou .json certaines fois suivant le thème), copier coller ce fichier et jouer avec les options, pour créer du contenu on peut également copier-coller ce qu'il y a dans le dossier content du site exemple, bien souvent il y a des pages qui ressemblent à celles que l'on veut créer, je pense à contact (formulaire héberger chez un tiers dont on peut se servir très très facilement grâce à un shortcode par exemple)
 
 Point à retenir:
 
@@ -138,4 +143,4 @@ Point à retenir:
 * En poussant ce site sur github on pourra l'héberger facilement et gratuitement via github.pages ou netlify
 * On peut se créer une vraie console d'admin très facilement avec forestry.io
 
-enjoy!!!
+Enjoy !!!
