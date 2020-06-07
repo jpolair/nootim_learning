@@ -18,7 +18,7 @@ Pré-requis:
 * Homebrew (pour mac) chocolatey (pour windows) installé sur la machine
 * 10 min de dispo  😁
 
-Aller dans un terminal est installé hugo sur la machine:
+Aller dans un terminal et installer hugo sur la machine:
 
 Pour mac voici la commande
 
@@ -26,4 +26,8 @@ Pour mac voici la commande
 
 Pour windows voici la commande
 
-    choco install hugo -confirm
+{{< highlight script >}}
+
+choco install hugo -confirm
+
+{{< /highlight >}}
