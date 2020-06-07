@@ -96,7 +96,7 @@ on ajoute donc du contenu en dessous des 3 tirets(ou 3 astérisks)
 
 un tiret - créera une puce de liste à puce, du texte sera l'équivalent html d'un paragraphe et des qu'on sautera une ligne on créera un nouveau paragraphe (sauter une ligne pas retour à la ligne) 
 
-les "#" seront les titres de 1 à 6, "#" = "<h1>" ### = "<h3>", 
+les "#" seront les titres de niveau 1 à niveau 6 comme h1 à h6 en HTML
 
 \[google\](www.google.fr) sera un lien vers..... google
 
