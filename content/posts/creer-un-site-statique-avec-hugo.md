@@ -1,6 +1,5 @@
 +++
 date = 2020-06-07T16:36:55Z
-draft = true
 title = "Créer un site statique avec Hugo"
 
 +++
