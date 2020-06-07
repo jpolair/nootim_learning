@@ -89,3 +89,28 @@ draft: true
 ***
 
 {{< /highlight >}}
+
+Le contenu est vide il y a juste le front matter c'est l'entête qui donne des infos sur le posts: la date, le titre et le fait que draft soit à true fait que ce post est visible en dev mais pas en production, pour le rendre visible en production on passera draft à....... false bien joué!!!
+
+on ajoute donc du contenu en dessous des 3 tirets(ou 3 astérisks)
+
+un tiret - créera une puce de liste à puce, du texte sera l'équivalent html d'un paragraphe et des qu'on sautera une ligne on créera un nouveau paragraphe (sauter une ligne pas retour à la ligne) 
+
+les # seront les titres de 1 à 6, # = <h1> ### = <h3>, 
+
+\[google\](www.google.fr) sera un lien vers..... google
+
+!\[alt-de-mon-image\](/images/mon_image.jpeg) affichera une image placée dans le dossier static de mon application
+
+Et pour la suite il y a beaucoup de doc sur le markdown partout sur le net !!!
+
+{{< highlight markdown >}}
+
+# Mon site
+
+un petit paragraphe
+
+* et une liste
+* oui une liste
+
+{{< /highlight >}}
