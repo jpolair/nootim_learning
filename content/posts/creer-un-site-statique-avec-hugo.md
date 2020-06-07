@@ -59,7 +59,7 @@ git init
 cd themes  
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git
 
-{{ </highlight >}}
+{{< /highlight >}}
 
 J'ai téléchargé le thème ananke qui est le thème "exemple" dans la doc hugo, il est très facile à mettre en place et je le trouve bien cool, mais plein d'autres thèmes existent, on peut les télécharger en tant que submodule comme j'ai fait ou télécharger le .zip et l'extraire dans le dossier themes du projet hugo... le résultat sera exactement le même, sauf que je ne profiterais pas des mises à jour, voici le lien avec tous les thèmes
 
