@@ -64,3 +64,28 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git
 J'ai téléchargé le thème ananke qui est le thème "exemple" dans la doc hugo, il est très facile à mettre en place et je le trouve bien cool, mais plein d'autres thèmes existent, on peut les télécharger en tant que submodule comme j'ai fait ou télécharger le .zip et l'extraire dans le dossier themes du projet hugo... le résultat sera exactement le même, sauf que je ne profiterais pas des mises à jour, voici le lien avec tous les thèmes
 
 [https://themes.gohugo.io/](https://themes.gohugo.io/ "https://themes.gohugo.io/")
+
+Maintenant que j'ai un thème, je vais ajouter du contenu, le contenu s'ajoute en markdown, le markdown est très très compliqué à apprendre ça prend au moins....5min 😁  
+PS: Pour l'instant j'ajoute du contenu en markdown...mais on peut faire encore mieux 😮😉
+
+Au root du projet dans un terminal taper la commande qui suit, puis ouvrir l'IDE préféré , visual studio code, atom, sublime-text, webstorm, enfin bref, le préféré..
+
+{{< highlight script >}}
+
+hugo new posts/ma-super-story.md
+
+{{< /highlight >}}
+
+Dans le projet suite à la commande tapée précédemment, un fichier posts/ma-super-story.md existe
+
+{{< highlight markdown >}}
+
+***
+
+title: "Ma super story"  
+date: 2020-06-07T18/54/22+01:00  
+draft: true
+
+***
+
+{{< /highlight >}}
