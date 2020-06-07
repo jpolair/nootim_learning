@@ -31,3 +31,32 @@ Pour windows voici la commande
 choco install hugo -confirm
 
 {{< /highlight >}}
+
+Pour vérifier que tout s'est bien passé et que hugo est dispo sur l'ordinateur
+
+{{< highlight script >}}
+
+hugo version
+
+{{< /highlight >}}
+
+Si j'ai une réponse avec un numéro de version c'est que tout s'est bien passé... sinon on recommence calmement sans se tromper et ça va marcher c'est sur !!!
+
+Pour générer un site, c'est très très compliqué il faut se rendre depuis le terminal à l'endroit où on veut sauvegarder notre site cd Documents/mon_chemin/ et taper 
+
+{{< highlight script >}}
+
+hugo new site le-super-site
+
+{{< /highlight >}}
+
+A ce moment notre site existe, il lui faut un thème (qui sera entièrement customizable), le mieux et de télécharger un thème en tant que submodule github, on pourra ainsi profiter des mises à jour du thème si il y en a
+
+{{< highlight script >}}
+
+cd le-super-site  
+git init  
+cd themes  
+`git submodule add `[`https://github.com/budparr/gohugo-theme-ananke.git`](https://github.com/budparr/gohugo-theme-ananke.git "https://github.com/budparr/gohugo-theme-ananke.git")` `
+
+`{{< /highlight >}}`
