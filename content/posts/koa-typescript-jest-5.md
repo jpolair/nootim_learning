@@ -2,6 +2,7 @@
 title: "Koa Typescript Jest, la doc (partie 5)"
 date: 2020-06-06T23:13:50+02:00
 draft: false
+featured_image: ""
 ---
 
 Le temps de documenter l'api est arrivé, pour cela deux outils opensource sont souvent utilisés, Swagger et apidocjs.
