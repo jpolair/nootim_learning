@@ -23,3 +23,7 @@ Aller dans un terminal est installé hugo sur la machine:
 Pour mac voici la commande
 
     brew install hugo
+
+Pour windows voici la commande
+
+    choco install hugo -confirm
