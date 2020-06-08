@@ -1,6 +1,7 @@
 ---
 title: "Découvrir Flexbox"
 date: 2020-06-08T17:03:04+02:00
+featured_image: "/images/flexbox/flexbox2.png"
 draft: false
 ---
 
