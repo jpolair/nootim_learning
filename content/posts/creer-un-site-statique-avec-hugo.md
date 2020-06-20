@@ -1,6 +1,7 @@
 +++
 date = 2020-06-07T16:36:55Z
 title = "Créer un site statique avec Hugo"
+tags = ["jamstack", "hugo"]
 featured_image = "/images/hugologo.jpg"
 
 +++

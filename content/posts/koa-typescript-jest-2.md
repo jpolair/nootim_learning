@@ -1,6 +1,7 @@
 ---
 title: "Koa Typescript Jest (partie 2)"
 date: 2020-06-06T20:37:02+02:00
+tags: ["koa"]
 draft: false
 ---
 

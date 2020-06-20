@@ -8,6 +8,6 @@ menu: main
 
 ---
 
-N'hésitez pas à me contacter.... Check out [Formspree](https://formspree.io/) for a simple, free form service. 
+N'hésitez pas à me contacter.... 
 
 {{< form-contact action=""  >}}

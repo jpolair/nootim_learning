@@ -2,6 +2,7 @@
 title: "Koa Typescript Jest (partie 4)"
 date: 2020-06-06T21:35:41+02:00
 draft: false
+tags: ["koa", "jest"]
 featured_image: "images/jest.png"
 ---
 

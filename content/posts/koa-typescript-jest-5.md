@@ -2,6 +2,7 @@
 title: "Koa Typescript Jest, la doc (partie 5)"
 date: 2020-06-06T23:13:50+02:00
 draft: false
+tags: ["koa"]
 featured_image: ""
 ---
 
