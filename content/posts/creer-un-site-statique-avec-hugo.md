@@ -1,8 +1,9 @@
 +++
 date = 2020-06-07T16:36:55Z
 title = "Créer un site statique avec Hugo"
-tags = ["jamstack", "hugo"]
+tags = ["jamstack", "hugo"] 
 featured_image = "/images/hugologo.jpg"
+disable_share = true
 
 +++
 Il y a quelque temps quand on parlait de site ou de blog on pensait très vite à wordpress, voire joomla (des CMS développés en PHP)  

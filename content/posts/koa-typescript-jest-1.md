@@ -3,6 +3,7 @@ title: "Koa Typescript et Jest (partie 1)"
 date: 2020-06-06T19:11:19+02:00
 tags: ["koa"]
 draft: false
+disable_share: true
 ---
 
 Koa est un framework écrit par l'équipe de développement d'Express, en voici une présentation complète avec l'ajout de Typescript.

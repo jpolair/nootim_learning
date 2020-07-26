@@ -4,6 +4,7 @@ date: 2020-06-08T17:03:04+02:00
 featured_image: "/images/flexbox/flexbox2.png"
 tags: ["css", "flexbox"]
 draft: false
+disable_share: true
 ---
 
 Le développeur Fullstack doit avoir plusieurs compétences pour développer en autonomie une application, forcément il doit savoir développer en back, en front, savoir requêter une base de données

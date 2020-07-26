@@ -4,6 +4,7 @@ date: 2020-06-06T23:13:50+02:00
 draft: false
 tags: ["koa"]
 featured_image: ""
+disable_share: true
 ---
 
 Le temps de documenter l'api est arrivé, pour cela deux outils opensource sont souvent utilisés, Swagger et apidocjs.
