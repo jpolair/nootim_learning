@@ -2,7 +2,7 @@
 title: "Découvrir Sass"
 date: 2020-06-30T20:36:05+02:00
 tags: ["css", "scss", "sass"]
-draft: true
+draft: false
 disable_share: true
 ---
 
@@ -63,7 +63,7 @@ div {
     }
 }
 
-// #{nom-variable} pour séléctionner var dans sélécteur
+// #{nom-variable} pour la séléctionner dans sélécteur css
 @media #{$large-screen} { 
     width: 90vw;
 }
@@ -73,3 +73,79 @@ On peut importer des fichiers (donc des variables) en sass, bien souvent on se s
 
 la création de variable pour les couleurs, les break-points, les icônes permet de gagner beaucoup de temps et d'énergie (en développement et en maintenance)
 
+### les mixins
+
+Une mixin est un groupe de déclarations CSS, on peut s'en servir pour ne pas répéter
+les préfixes vendeur (par exemple).
+Dans l'exemple en dessous je ne taperai qu'une seule fois les 3 lignes nécessaires à
+transform()
+
+{{< highlight  scss >}}
+/* scss */
+
+// déclaration mixin
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+// utilisation mixin
+.ma-classe {
+    @include transform(rotate(30deg)); 
+}
+
+{{< /highlight >}}
+
+
+### extend (étendre des propriétés Css)
+
+Cette fonctionnalité me permet de ne pas réécrire une base de propriétés communes 
+à plusieurs éléments
+
+{{< highlight  scss >}}
+/* scss */
+
+%rectangle {
+    width: 200px;
+    height: 100px;
+    border: 1 px solid black;
+}
+
+.green {
+    @extend %rectangle;
+    background: green;
+}
+
+.blue {
+    @extend %rectangle;
+    background: blue;
+}
+
+{{< /highlight >}}
+
+### Les opérateurs 
+
+En Scss on peut faire des calculs 
+
+{{< highlight  scss >}}
+/* scss */
+
+$full-width: 900px;
+
+.container {
+    width: $fullWidth;
+}
+
+.page-gauche {
+    width: $fullWidth / 3;
+}
+
+.page-droite {
+    width: $fullWidth * (2/3);
+}
+
+{{< /highlight >}}
+
+C'est le début !!!
+Enjoy !!!
