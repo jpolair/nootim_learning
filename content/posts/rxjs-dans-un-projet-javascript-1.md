@@ -117,3 +117,5 @@ const joined$ = rxjs.forkJoin({
 {{< /highlight >}}
 
 NB: on peut donner en paramètre à la méthode forkjoin, des observables au lieu d'objet, elle nous renverra un tableau d'observable, essayer enlever les accolades et les noms de propriétés...
+
+[sources](https://github.com/nootim/rxjs-in-javascript-project)
