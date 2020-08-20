@@ -3,6 +3,7 @@ title: "Rxjs Dans Un Projet Javascript 1"
 date: 2020-08-03T17:50:21+02:00
 tags: ["RxJs","observable","map","forkjoin","tap","take","interval"]
 draft: false
+featured_image: "images/rxjs/rxjs_image.png"
 disable_share: true
 ---
 

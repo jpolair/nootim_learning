@@ -3,6 +3,7 @@ title: "Découvrir Sass"
 date: 2020-06-30T20:36:05+02:00
 tags: ["css", "scss", "sass"]
 draft: false
+featured_image: "images/sass/sass_image.svg"
 disable_share: true
 ---
 

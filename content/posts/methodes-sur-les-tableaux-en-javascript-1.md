@@ -3,6 +3,7 @@ title: "Methodes Sur Les Tableaux en Javascript - 1"
 date: 2020-08-08T23:04:33+02:00
 draft: false
 tags: ["javascript","tableaux","every","map","reduce","some"]
+featured_image: "images/javascript/javascript_image.png"
 disable_share: true
 ---
 

@@ -3,6 +3,7 @@ title: "Rxjs Et Les Observables"
 date: 2020-08-01T00:09:53+02:00
 tags: ["RxJs","observable"]
 draft: false
+featured_image: "images/rxjs/rxjs_image.png"
 disable_share: true
 ---
 
