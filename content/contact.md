@@ -10,4 +10,4 @@ menu: main
 
 N'hésitez pas à me contacter.... 
 
-{{< form-contact action=""  >}}
+{{< form-contact action="https://formspree.io/mqkyvllg"  >}}
