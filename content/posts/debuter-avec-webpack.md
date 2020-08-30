@@ -73,7 +73,7 @@ module.exports = {
 
 ## Plugins
 
-Les plugin servent à accomplir pleins de tâches, comme l'optimisation des "bundle", la gestion des assets, l'injection de variable d'environnement, on installe les modules via npm
+Les plugin servent à accomplir pleins de tâches, comme l'optimisation des "bundle", la gestion des assets, l'injection de variable d'environnement, on installe les plugin via npm (ou yarn)
  
 {{< highlight js >}}
 // fichier webpack.config.js
@@ -120,4 +120,6 @@ module.exports = {
 Voici une présentation des différentes propriétés du fichier webpack.config.js, on peut faire bien plus de choses avec webpack, on peut par exemple prévoir plusieurs entry points (pour séparer les vendors et notre code) , pour cela on fournirai un array de string à la propriété entry, on peut également avoir pleins de loaders: pour le sass, le typescript, les images, etc...
 
 Webpack est un outil super, c'est la raison pour laquelle il est embarqué dans les frameworks javascript moderne, il ne faut pas avoir peur de son apparente complexité, la [documentation officielle](https://webpack.js.org/) est très bien faite et beaucoup de ressources existent sur le web pour bien l'appréhender
+
+Si vous voulez démarrer un projet avec webpack il vous faudra installer au minimum (via npm ou yarn) webpack webpack-cli et webpack-dev-server, voici un lien vers un projet "starter" un peu plus complet que cette petite présentation : [projet starter webpack](https://github.com/nootim/webpack-starter) la commande npm run dev lancera un serveur ici: http://localhost:8080
 
