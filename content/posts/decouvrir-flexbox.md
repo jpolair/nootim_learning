@@ -9,7 +9,7 @@ disable_share: true
 
 Le développeur Fullstack doit avoir plusieurs compétences pour développer en autonomie une application, forcément il doit savoir développer en back, en front, savoir requêter une base de données
 , il doit avoir des compétences minimes en réseaux, en sécu (la première fois sur AWS ça fait bizarre) et j'en oublie, c'est la raison pour laquelle, perso, que j'évite le 
-terme de développeur Fullstack, car je pense qu'il n'est vraiment réservé qu'au Papa...
+terme de développeur Fullstack, car je pense qu'il n'est vraiment réservé qu'aux Papas...
 Mais.... j'ai pu remarquer, même si je ne sais pas l'expliquer qu'une compétence fait souvent défaut... c'est le CSS.
 Je vais donc faire une présentation rapide du positionnement en CSS via flexbox, car même si on se sert d'un framework CSS pour aller plus vite, on a toujours besoin de connaitre les bases du positionnement,
 de plus, la plupart des frameworks CSS sont basés sur Flexbox (Bootstrap, Vuetify, Angular Material, FlexBoxLayout, etc..)

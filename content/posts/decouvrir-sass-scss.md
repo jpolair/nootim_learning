@@ -78,7 +78,7 @@ la création de variable pour les couleurs, les break-points, les icônes permet
 
 Une mixin est un groupe de déclarations CSS, on peut s'en servir pour ne pas répéter
 les préfixes vendeur (par exemple).
-Dans l'exemple en dessous je ne taperai qu'une seule fois les 3 lignes nécessaires à
+Dans l'exemple en dessous je ne taperais qu'une seule fois les 3 lignes nécessaires à
 transform()
 
 {{< highlight  scss >}}

@@ -12,7 +12,7 @@ On va, ici, s'en servir dans un navigateur pour une rapide présentation de quel
 
 Tout d'abord on crée un dossier avec trois fichiers dedans: index.html, style.css et app.js
 
-index.html va juste importer RxJs via un CDN ert fera appel à notre feuille de style et notre script
+index.html va juste importer RxJs via un CDN et fera appel à notre feuille de style et notre script
 
 {{< highlight html >}}
 <!DOCTYPE html>
