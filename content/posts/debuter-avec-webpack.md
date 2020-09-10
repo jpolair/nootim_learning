@@ -6,13 +6,13 @@ featured_image: "images/webpack/webpack_image.svg"
 disable_share: true
 ---
 
-En Javascript, hors contexte node.js, on ne peut pas découper notre code en plusieurs fichiers et importer tel fichier dans tel fichier comme on pourrait le faire avec node ou en PHP.Si on veut découper le code en plusieurs fichiers pour le rendre plus lisible, il faut importer dans le fichier html  chaque fichier dans le bon ordre, comme on le ferait avec jQuery et bootstrap.js (car bootstrap.js se base jQuery).On peut vite faire face à des problèmes de dépendences ou de conflits à cause du nom des variables, ou des fonctions....pour ceci et pour bien d'autres choses il y a webpack:
+En Javascript, hors contexte node.js, on ne pouvait pas (pendant longtemps) découper notre code en plusieurs fichiers et importer tel fichier dans tel fichier comme on le fait avec node ou en PHP.Si on veut découper le code en plusieurs fichiers pour le rendre plus lisible, il faut importer dans le fichier html  chaque fichier dans le bon ordre, comme on le ferait avec jQuery et bootstrap.js (car bootstrap.js se base jQuery).On peut vite faire face à des problèmes de dépendences ou de conflits à cause du nom des variables, ou des fonctions....pour ceci et pour bien d'autres choses il y a webpack:
 
 On peut très facilement se créer un environnement de développement javascript (ou typescript) fort sympathique grâce à webpack, surtout que depuis la version 4 webpack n'a plus besoin de son fichier de configuration (il a une configuration par défaut très très basique)
 
 Webpack est capable de "découper" notre code en fichier, et de nous générer un ou plusieurs bundles, j'explique les différents concepts clé en créant un fichier de configuration car bien que ce fichier n'est plus obligatoire (car il a maintenant des valeurs par défaut) il nous permet de faire vraiment plein de choses.
 
-
+NB : le découpage en fichiers javascript (module) n'est pas le seul intérêt de webpack, on peut faire ceci grâce à un import de script type "module"
 
 ## Entry
 
