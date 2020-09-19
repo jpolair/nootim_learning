@@ -1,10 +1,10 @@
 ---
 title: "Comprendre Splice Slice Tableaux Javascript"
 date: 2020-09-16T19:14:07+02:00
-draft: true
+draft: false
 featured_image: "images/javascript/javascript_image.png"
 tags: ["javascript","tableaux","splice","slice"]
-disable_share: false
+disable_share: true
 ---
 
 Au début j'ai eu beaucoup de mal avec splice et slice, en général en tapant le nom d'une méthode dans google trad on comprend un peu plus à quoi elle sert, dans le cas de splice et slice ce n'est pas aussi évident.
