@@ -3,6 +3,8 @@ title: "Comprendre Splice Slice Tableaux Javascript"
 date: 2020-09-16T19:14:07+02:00
 draft: false
 featured_image: "images/javascript/javascript_image.png"
+images: 
+- "images/javascript/javascript_image.png"
 tags: ["javascript","tableaux","splice","slice"]
 description: "splice et slice JavaScript"
 disable_share: true
