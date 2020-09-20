@@ -4,6 +4,7 @@ date: 2020-09-16T19:14:07+02:00
 draft: false
 featured_image: "images/javascript/javascript_image.png"
 tags: ["javascript","tableaux","splice","slice"]
+description: "splice et slice JavaScript"
 disable_share: true
 ---
 
@@ -61,7 +62,7 @@ friends.splice(2, 2);
 
 #### Attention à splice()
 
-Certaines fois on ne veut pas modifier directement le tableau fournit en paramètre à un fonction, je pense à des applications basées sur un store/state genre ngRx, Redux ou Vuex ou plus globalement dans un contexte de programmation fonctionnelle, dans ce cas là il peut être préférable de faire une copie du tableau et de travailler sur cette copie ceci est réalisable très facilement avec le spread operator
+Certaines fois on ne veut pas modifier directement le tableau fournit en paramètre à un fonction, je pense à des applications basées sur un store/state genre ngRx, Redux ou Vuex ou plus globalement dans un contexte de programmation fonctionnelle, dans ce cas là il peut être préférable de faire une copie du tableau et de travailler sur cette copie ceci est réalisable très facilement avec le spread operator (ou slice on le voit après...)
 
 {{< highlight javascript >}}
 
@@ -111,11 +112,11 @@ const favoriteNumbers = numbers.slice()
 
 {{< /highlight >}}
 
+#### Copier un tableau jusqu'à la fin
+
 - je crée une nouvelle constante
 - j'applique slice() sur le tableau d'origine
 - j'indique seulement l'indice du début de la copie
-
-#### Copier un tableau jusqu'à la fin
 
 {{< highlight javascript >}}
 

@@ -11,3 +11,4 @@ googleAnalytics = "UA-89707126-2"
 
 [params]
     background_color_class = "bg-blue"
+    description = "Articles sur le développement web"

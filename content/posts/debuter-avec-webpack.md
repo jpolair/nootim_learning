@@ -3,6 +3,7 @@ title: "Débuter Avec Webpack"
 date: 2020-08-15T15:36:09+02:00
 draft: false
 featured_image: "images/webpack/webpack_image.svg"
+description: "webpack starter"
 disable_share: true
 ---
 
