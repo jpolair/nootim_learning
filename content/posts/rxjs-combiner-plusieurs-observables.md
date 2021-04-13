@@ -142,22 +142,21 @@ merge(val1$, val2$).subscribe(res => console.log('res', res))
 
 On utilise swichMap quand:
 
-* On a besoin d'un observable1 pour en créé un observable2
+* On a besoin d'un observable1 pour créé un observable2
 * quand observable2 est créé observable1 n'a plus d'utilité
-* Pour unsubscribe automatiquement de l'observable1
 
 
 {{< highlight typescript >}}
 
 const itemID$ = this.http.get('api_today_itemID');
 
-// dès que je réccupère l'id je unsubscribe de itemID
-// j'évite ainsi le memory leak
 const userItem = itemID$.pipe(
     switchMap(id => this.http.get('url_user/item' + id))
 );
 
 {{< /highlight >}}
+
+[lien vers exemples](https://stackblitz.com/edit/angular-ivy-t3ngh5?file=src/app/app.component.html)
 
 
 
